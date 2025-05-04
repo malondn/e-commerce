@@ -1,0 +1,40 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+#contact {
+    background-color: #121212;
+    color: gold;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+#contact button {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 25px;
+    border-radius: 15px;
+}

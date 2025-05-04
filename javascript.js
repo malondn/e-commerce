@@ -5,3 +5,7 @@ document.getElementById("shopButton").addEventListener("click", function() {
   document.getElementById("shop-link").addEventListener("click", function() {
     window.location.href = "shop.html";
   });
+
+  document.getElementById("contact-link").addEventListener("click", function() {
+    window.location.href = "contact.html";
+  });
