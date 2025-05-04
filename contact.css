@@ -4,6 +4,34 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center; /* Centers the nav items */
+    gap: 20px; /* Creates space between items */
+    list-style: none; /* Removes default bullet points */
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: gold; /* Luxury color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white; /* Smooth hover effect */
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 #contact {
     background-color: #121212;
     color: gold;
