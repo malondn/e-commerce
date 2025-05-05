@@ -14,6 +14,10 @@ document.getElementById("shopButton").addEventListener("click", function() {
     alert("Thank you! We’ll get back to you shortly.");
   });
 
+  document.querySelector(".casio").addEventListener("click" function,() {
+    window.location.href = "casiGshockBlack.html"
+  })
+
   /* casioGshockblack image slideshow */
   const images = [
     "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg?cs=srgb&dl=pexels-pixabay-280250.jpg&fm=jpg",
