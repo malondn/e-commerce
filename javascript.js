@@ -14,7 +14,7 @@ document.getElementById("shopButton").addEventListener("click", function() {
     alert("Thank you! We’ll get back to you shortly.");
   });
 
-  document.querySelector(".casio").addEventListener("click", function() {
+  document.getElementById("casio").addEventListener("click", function() {
     window.location.href = "casiGshockBlack.html"
   })
 
