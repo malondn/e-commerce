@@ -10,10 +10,16 @@ document.getElementById("shopButton").addEventListener("click", function() {
     window.location.href = "contact.html";
   });
 
-  document.querySelector("form").addEventListener("submit", function(event) {
-    alert("Thank you! We’ll get back to you shortly.");
-  });
-
+  document.addEventListener("DOMContentLoaded", function() {
+    const button = document.querySelector(".button");
+    if (button) {
+        button.addEventListener("click", function() {
+            window.location.href = "casioGshockBlack.html";
+        });
+    } else {
+        console.error("Button element not found!");
+    }
+});
 
   /* casioGshockblack image slideshow */
   const images = [
